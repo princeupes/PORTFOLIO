@@ -1,0 +1,30 @@
+
+
+/* loader */
+
+.loader {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #17202a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .loader-item {
+      width: 2em;
+      height: 2em;
+      border-radius: 50%;
+      border: 0.2em solid #17202a;
+      border-top-color: #d5d8dc;
+      animation: rotate 1.1s linear infinite;
+  }
+  
+  @keyframes rotate {
+      to {transform: rotate(360deg);}
+  }
+
+/* end of loader */
